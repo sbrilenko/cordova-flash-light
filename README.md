@@ -2,14 +2,14 @@
 
 by [Eddy Verbruggen](http://www.x-services.nl) for iOS, Android and WP8
 
-1. [Description](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#1-description)
-2. [Installation](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#2-installation)
-	2. [Automatically (CLI / Plugman)](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#automatically-cli--plugman)
-	2. [Manually](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#manually)
-	2. [PhoneGap Build](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#phonegap-build)
-3. [Usage](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#3-usage)
-4. [Credits](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#4-credits)
-5. [License](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#5-license)
+1. [Description](https://github.com/sbrilenko/cordova-flash-light#1-description)
+2. [Installation](https://github.com/sbrilenko/cordova-flash-light#2-installation)
+	2. [Automatically (CLI / Plugman)](https://github.com/sbrilenko/cordova-flash-light#automatically-cli--plugman)
+	2. [Manually](https://github.com/sbrilenko/cordova-flash-light#manually)
+	2. [PhoneGap Build](https://github.com/sbrilenko/cordova-flash-light#phonegap-build)
+3. [Usage](https://github.com/sbrilenko/cordova-flash-light#3-usage)
+4. [Credits](https://github.com/sbrilenko/cordova-flash-light#4-credits)
+5. [License](https://github.com/sbrilenko/cordova-flash-light#5-license)
 
 ## 1. Description
 
@@ -28,7 +28,7 @@ This plugin allows you to switch the flashlight / torch of the device on and off
 Flashlight is compatible with [Cordova Plugman](https://github.com/apache/cordova-plugman), compatible with [PhoneGap 3.0 CLI](http://docs.phonegap.com/en/3.0.0/guide_cli_index.md.html#The%20Command-line%20Interface_add_features), here's how it works with the CLI:
 
 ```
-$ cordova plugin add https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin.git
+$ cordova plugin add https://github.com/sbrilenko/cordova-flash-light.git
 $ cordova prepare
 ```
 Then reference `Flashlight.js` in `index.html`, after `cordova.js`/`phonegap.js`. Mind the path:
@@ -135,10 +135,7 @@ function exitApp() {
 ```
 
 ## 4. CREDITS ##
-* This plugin was streamlined and enhanced for Plugman / PhoneGap Build by [Eddy Verbruggen](http://www.x-services.nl).
 * The Android code was inspired by the [PhoneGap Torch plugin](https://github.com/phonegap/phonegap-plugins/tree/DEPRECATED/Android/Torch).
-* Thanks to [HuaHub](https://github.com/HuaHub) for [making me fix a camera lock issue on Android](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin/issues/3).
-* The iOS code was inspired by [Tom Schreck](https://github.com/tomschreck/iOS-Torch-Plugin).
 
 
 ## 5. License
