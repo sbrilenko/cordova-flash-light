@@ -1,6 +1,6 @@
 # PhoneGap Flashlight / Torch plugin
 
-by [Eddy Verbruggen](http://www.x-services.nl) for iOS, Android and WP8
+Flash light plugin for iOS, Android and WP8
 
 1. [Description](https://github.com/sbrilenko/cordova-flash-light#1-description)
 2. [Installation](https://github.com/sbrilenko/cordova-flash-light#2-installation)
